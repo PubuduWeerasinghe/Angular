@@ -12,6 +12,8 @@ import { HomeComponent } from './components/home/home.component';
 import { CountriesComponent } from './components/countries/countries.component';
 import { DashboardCardComponent } from './components/dashboard-card/dashboard-card.component';
 
+import { Ng2GoogleChartsModule, GoogleChartsSettings } from 'ng2-google-charts';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { DashboardCardComponent } from './components/dashboard-card/dashboard-ca
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-  
+    Ng2GoogleChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
